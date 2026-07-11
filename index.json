@@ -1,0 +1,41 @@
+{
+  "schema_version": "1",
+  "plugins": [
+    {
+      "id": "invert",
+      "display_name": "Invert",
+      "description": "Invert image intensities (data.max() - data). The minimal example plugin.",
+      "version": "1.0.0",
+      "file": "plugins/invert.py",
+      "author": "ImSwitch",
+      "min_improcess_version": "0.1"
+    },
+    {
+      "id": "gaussian_blur",
+      "display_name": "Gaussian blur",
+      "description": "Per-plane Gaussian blur with an adjustable sigma (requires scipy).",
+      "version": "1.0.0",
+      "file": "plugins/gaussian_blur.py",
+      "author": "ImSwitch",
+      "min_improcess_version": "0.1"
+    },
+    {
+      "id": "median_filter",
+      "display_name": "Median filter",
+      "description": "Edge-preserving per-plane median denoise with an adjustable kernel size (requires scipy).",
+      "version": "1.0.0",
+      "file": "plugins/median_filter.py",
+      "author": "ImSwitch",
+      "min_improcess_version": "0.1"
+    },
+    {
+      "id": "percentile_normalize",
+      "display_name": "Percentile normalize",
+      "description": "Clip to a percentile window and rescale to [0, 1]. Pure NumPy, no extra dependencies.",
+      "version": "1.0.0",
+      "file": "plugins/percentile_normalize.py",
+      "author": "ImSwitch",
+      "min_improcess_version": "0.1"
+    }
+  ]
+}
