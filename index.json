@@ -36,6 +36,15 @@
       "file": "plugins/percentile_normalize.py",
       "author": "ImSwitch",
       "min_improcess_version": "0.1"
+    },
+    {
+      "id": "photophysics_suite",
+      "display_name": "Photophysics suite",
+      "description": "RSFP photophysics from a camera recording: fatigue/bleaching, off-switching kinetics (+ exponential fits) and photo-activation curves.",
+      "version": "0.1.0",
+      "file": "plugins/photophysics_suite.py",
+      "author": "TestaLab",
+      "min_improcess_version": "0.1"
     }
   ]
 }
