@@ -45,6 +45,15 @@
       "file": "plugins/photophysics_suite.py",
       "author": "TestaLab",
       "min_improcess_version": "0.1"
+    },
+    {
+      "id": "lisai_restore",
+      "display_name": "LISAI restore",
+      "description": "Deep-learning denoising and sub-sampled-image restoration for RESOLFT/MoNaLISA with trained LISAI models. Requires LISAI (github.com/GuillaumeMinet/LISAI-resolft) installed in the ImSwitch2 environment, set up once from a terminal, with at least one model from 'lisai models download <name> --install'.",
+      "version": "0.1.0",
+      "file": "plugins/lisai_restore.py",
+      "author": "ImSwitch",
+      "min_improcess_version": "0.1"
     }
   ]
 }

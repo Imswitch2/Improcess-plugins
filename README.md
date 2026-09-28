@@ -21,6 +21,8 @@ plugins/            # the plugin .py files
   gaussian_blur.py
   median_filter.py
   percentile_normalize.py
+  photophysics_suite.py
+  lisai_restore.py
 ```
 
 ## Manifest (`index.json`)
